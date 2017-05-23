@@ -1,0 +1,196 @@
+/*
+Theme Name: wordpress_sundays
+Theme URI:
+Author:
+Author URI:
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wordpress_sundays
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.container, .row {
+  padding: 0;
+  margin: auto; }
+
+.navbar {
+  margin: 0; }
+
+nav a {
+  text-transform: capitalize; }
+
+.title {
+  text-align: center;
+  background-color: #281400;
+  padding: 2em 0; }
+
+h1 {
+  color: white;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: 'Diplomata SC', cursive;
+  font-size: 35px; }
+
+header p {
+  color: white;
+  font-family: serif;
+  font-size: 30px; }
+
+.title button {
+  background-color: #A28F61;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  width: 60%;
+  margin: auto;
+  font-size: 10px; }
+
+.feedback-button {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  position: relative;
+  cursor: pointer;
+  padding: 12px 22px;
+  overflow: hidden;
+  border: none;
+  font: normal normal bold 1.6em/normal "Syncopate", Helvetica, sans-serif;
+  color: #ecf0f1;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(-90deg, #ff8583 0, #ff5350 100%);
+  background: -moz-linear-gradient(180deg, #ff8583 0, #ff5350 100%);
+  background: linear-gradient(180deg, #ff8583 0, #ff5350 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 0 10px 0 0 #b23131;
+  box-shadow: 0 10px 0 0 #b23131;
+  text-shadow: 0 0 0 #c4504e, 1px 1px 0 #c4504e, 2px 2px 0 #c4504e, 3px 3px 0 #c4504e, 4px 4px 0 #c4504e, 5px 5px 0 #c4504e, 6px 6px 0 #c4504e, 7px 7px 0 #c4504e, 8px 8px 0 #c4504e, 9px 9px 0 #c4504e, 10px 10px 0 #c4504e, 11px 11px 0 #c4504e, 12px 12px 0 #c4504e, 13px 13px 0 #c4504e, 14px 14px 0 #c4504e, 15px 15px 0 #c4504e, 16px 16px 0 #c4504e, 17px 17px 0 #c4504e, 18px 18px 0 #c4504e, 19px 19px 0 #c4504e, 20px 20px 0 #c4504e, 21px 21px 0 #c4504e, 22px 22px 0 #c4504e, 23px 23px 0 #c4504e, 24px 24px 0 #c4504e, 25px 25px 0 #c4504e, 26px 26px 0 #c4504e, 27px 27px 0 #c4504e, 28px 28px 0 #c4504e, 29px 29px 0 #c4504e, 30px 30px 0 #c4504e, 31px 31px 0 #c4504e, 32px 32px 0 #c4504e, 33px 33px 0 #c4504e, 34px 34px 0 #c4504e, 35px 35px 0 #c4504e, 36px 36px 0 #c4504e, 37px 37px 0 #c4504e, 38px 38px 0 #c4504e, 39px 39px 0 #c4504e, 40px 40px 0 #c4504e, 41px 41px 0 #c4504e, 42px 42px 0 #c4504e, 43px 43px 0 #c4504e, 44px 44px 0 #c4504e, 45px 45px 0 #c4504e, 46px 46px 0 #c4504e, 47px 47px 0 #c4504e, 48px 48px 0 #c4504e, 1px 1px 0 rgba(196, 80, 78, 0.98039), 2px 2px 0 rgba(196, 80, 78, 0.96078), 3px 3px 0 rgba(196, 80, 78, 0.94118), 4px 4px 0 rgba(196, 80, 78, 0.92157), 5px 5px 0 rgba(196, 80, 78, 0.90196), 6px 6px 0 rgba(196, 80, 78, 0.88235), 7px 7px 0 rgba(196, 80, 78, 0.86275), 8px 8px 0 rgba(196, 80, 78, 0.84314), 9px 9px 0 rgba(196, 80, 78, 0.81961), 10px 10px 0 rgba(196, 80, 78, 0.8), 11px 11px 0 rgba(196, 80, 78, 0.78039), 12px 12px 0 rgba(196, 80, 78, 0.76078), 13px 13px 0 rgba(196, 80, 78, 0.74118), 14px 14px 0 rgba(196, 80, 78, 0.72157), 15px 15px 0 rgba(196, 80, 78, 0.70196), 16px 16px 0 rgba(196, 80, 78, 0.68235), 17px 17px 0 rgba(196, 80, 78, 0.65882), 18px 18px 0 rgba(196, 80, 78, 0.63922), 19px 19px 0 rgba(196, 80, 78, 0.61961), 20px 20px 0 rgba(196, 80, 78, 0.6), 21px 21px 0 rgba(196, 80, 78, 0.58039), 22px 22px 0 rgba(196, 80, 78, 0.56078), 23px 23px 0 rgba(196, 80, 78, 0.54118), 24px 24px 0 rgba(196, 80, 78, 0.52157), 25px 25px 0 rgba(196, 80, 78, 0.49804), 26px 26px 0 rgba(196, 80, 78, 0.47843), 27px 27px 0 rgba(196, 80, 78, 0.45882), 28px 28px 0 rgba(196, 80, 78, 0.43922), 29px 29px 0 rgba(196, 80, 78, 0.41961), 30px 30px 0 rgba(196, 80, 78, 0.4), 31px 31px 0 rgba(196, 80, 78, 0.38039), 32px 32px 0 rgba(196, 80, 78, 0.36078), 33px 33px 0 rgba(196, 80, 78, 0.34118), 34px 34px 0 rgba(196, 80, 78, 0.31765), 35px 35px 0 rgba(196, 80, 78, 0.29804), 36px 36px 0 rgba(196, 80, 78, 0.27843), 37px 37px 0 rgba(196, 80, 78, 0.25882), 38px 38px 0 rgba(196, 80, 78, 0.23922), 39px 39px 0 rgba(196, 80, 78, 0.21961), 40px 40px 0 rgba(196, 80, 78, 0.2), 41px 41px 0 rgba(196, 80, 78, 0.18039), 42px 42px 0 rgba(196, 80, 78, 0.15686), 43px 43px 0 rgba(196, 80, 78, 0.13725), 44px 44px 0 rgba(196, 80, 78, 0.11765), 45px 45px 0 rgba(196, 80, 78, 0.09804), 46px 46px 0 rgba(196, 80, 78, 0.07843), 47px 47px 0 rgba(196, 80, 78, 0.05882), 48px 48px 0 rgba(196, 80, 78, 0.03922), 50px 50px 0 rgba(196, 80, 78, 0); }
+
+.feedback-button:hover {
+  text-align: center;
+  background: -webkit-linear-gradient(-90deg, #ce6161 0, #ef6664 100%);
+  background: -moz-linear-gradient(180deg, #ce6161 0, #ef6664 100%);
+  background: linear-gradient(180deg, #ce6161 0, #ef6664 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto; }
+
+@media (min-width: 992px) {
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+
+  .navbar {
+    border: none;
+    background-color: #281400;
+    border-radius: 0; }
+
+  .title {
+    padding: 3em 0 6em 0; }
+    .title h1, .title p {
+      width: 30%;
+      margin: auto;
+      padding: 0.5em 0; }
+    .title button {
+      width: 20%;
+      margin: auto;
+      font-size: 10px; } }
+h3 {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: serif; }
+
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+main article {
+  width: 45%;
+  display: inline-block; }
+  main article .onsale {
+    color: #FFCC17; }
+  main article h4 {
+    color: #CA9961;
+    text-transform: uppercase; }
+  main article p {
+    color: #949494;
+    text-transform: capitalize; }
+  main article img {
+    width: 100%; }
+
+@media (min-width: 992px) {
+  main h3 {
+    margin: 1.5em 0 1em 0; }
+  main section {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  main article {
+    width: 15%;
+    margin: 1em 0;
+    box-shadow: 2px 2px 1px -1px;
+    padding-bottom: 0.25em; }
+    main article h4, main article p, main article h5 {
+      margin: 0.25em 0 0.25em 0.5em; }
+  main article:hover {
+    box-shadow: 2px 2px 1px 1px #281400; } }
+footer {
+  background-color: #0F3E57; }
+  footer ul {
+    padding: 0; }
+  footer li {
+    color: #cfcfcf;
+    list-style: none; }
+  footer article {
+    width: 100%; }
+  footer input {
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    padding: 0.25em 0; }
+  footer i {
+    margin-right: 12px; }
+  footer button {
+    border: 1px solid white;
+    border-radius: 3px;
+    color: #cfcfcf;
+    background-color: #0F3E57;
+    padding: 0.25em; }
+
+article h6 {
+  width: 100%;
+  color: white;
+  text-transform: capitalize;
+  font-size: 15px; }
+
+@media (min-width: 992px) {
+  footer {
+    margin-top: 4em; }
+    footer section {
+      width: 90%;
+      margin: auto;
+      padding: 2em 0; } }
+@media (min-width: 992px) {
+  .container {
+    width: 992px;
+    margin: auto; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,74 @@
+// MOBILE
+
+h3 {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: serif;
+}
+
+main {
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    article {
+        width: 45%;
+        display: inline-block;
+
+        .onsale {
+            color: #FFCC17;
+        }
+
+        h4 {
+            color: #CA9961;
+            text-transform: uppercase;
+        }
+
+        p {
+            color: rgb(148, 148, 148);
+            text-transform: capitalize;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+// WEB
+@media (min-width:992px) {
+    main {
+
+        h3 {
+            margin: 1.5em 0 1em 0;
+        }
+
+        section {
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        article {
+            width: 15%;
+            margin: 1em 0;
+            box-shadow: 2px 2px 1px -1px;
+            padding-bottom: 0.25em;
+
+
+
+            h4, p, h5 {
+                margin: 0.25em 0 0.25em 0.5em;
+            }
+        }
+
+        article:hover {
+            box-shadow: 2px 2px 1px 1px #281400;
+        }
+    }
+}

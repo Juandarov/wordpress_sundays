@@ -1,0 +1,57 @@
+// MOBILE
+footer {
+    background-color: #0F3E57;
+
+    ul {
+        padding: 0;
+    }
+
+    li {
+        color: rgb(207, 207, 207);
+        list-style: none;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    input {
+        width: 60%;
+        border: none;
+        border-radius: 5px;
+        padding: 0.25em 0;
+    }
+
+
+    i {
+        margin-right: 12px;
+    }
+
+    button {
+        border: 1px solid white;
+        border-radius: 3px;
+        color: rgb(207, 207, 207);
+        background-color: #0F3E57;
+        padding: 0.25em;
+    }
+}
+
+article h6 {
+    width: 100%;
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+// WEB
+@media (min-width:992px) {
+    footer {
+        margin-top: 4em;
+
+        section {
+            width: 90%;
+            margin: auto;
+            padding: 2em 0;
+        }
+    }
+}
