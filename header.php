@@ -27,7 +27,8 @@
                           <!-- Collect the nav links, forms, and other content for toggling -->
                           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                               <ul class="nav navbar-nav">
-                                  <li><a href="#">catalog</a></li>
+
+                                  <li><a href="<?php echo esc_url( home_url( '/index.php' ) ); ?>">catalog</a></li>
                                   <li><a href="aboutUs.html">about us</a></li>
                                   <li><a href="#">stores</a></li>
                                   <li><a href="#">blog</a></li>
@@ -41,6 +42,6 @@
                   <div class="title">
                       <h1>sundays</h1>
                       <p>We craft ocean friendly apparel</p>
-                      <button class="feedback-button" type="button" name="button">browse our products</button>
+                      <button href="index.php" class="feedback-button" type="button" name="button">browse our products</button>
                   </div>
               </header>

@@ -4,5 +4,5 @@
         wp_enqueue_script("jquery");
     }
     add_action( 'wp_enqueue_scripts', 'bordeaux_enqueue_scripts' );
-    // add_theme_support( 'post-thumbnails' );
+    add_theme_support( 'post-thumbnails' );
 ?>

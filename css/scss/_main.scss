@@ -34,8 +34,19 @@ main {
         img {
             width: 100%;
         }
+
+        ul {
+            padding: 0;
+
+            li {
+                list-style: none;
+            }
+        }
+
     }
 }
+
+
 
 
 // WEB
@@ -62,7 +73,7 @@ main {
 
 
 
-            h4, p, h5 {
+            h4, p, h5, li {
                 margin: 0.25em 0 0.25em 0.5em;
             }
         }
